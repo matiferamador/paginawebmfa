@@ -8,8 +8,8 @@ const baseUrl = '';
 module.exports = withBundleAnalyzer({
   poweredByHeader: false,
   trailingSlash: true,
-  basePath: baseUrl,
   output: 'export',
+  basePath: baseUrl,
   env: {
     baseUrl,
   },
