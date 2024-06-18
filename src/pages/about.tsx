@@ -22,5 +22,4 @@ const About = () => (
     </Content>
   </Main>
 );
-
 export default About;
