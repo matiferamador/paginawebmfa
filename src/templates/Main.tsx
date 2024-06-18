@@ -34,11 +34,6 @@ const Main = (props: IMainProps) => (
                 <a>About</a>
               </Link>
             </li>
-            <li className="mr-6">
-              <a href="https://github.com/ixartz/Next-js-Blog-Boilerplate">
-                GitHub
-              </a>
-            </li>
           </Navbar>
         </div>
       </div>
