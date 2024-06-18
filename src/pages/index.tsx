@@ -12,10 +12,7 @@ import { getAllPosts } from '../utils/Content';
 const Index = (props: IBlogGalleryProps) => (
   <Main
     meta={
-      <Meta
-        title="Made with Next.js, TypeScript, ESLint, Prettier, PostCSS, Tailwind CSS"
-        description={AppConfig.description}
-      />
+      <Meta title="Blog de Matias Amador" description={AppConfig.description} />
     }
   >
     <BlogGallery posts={props.posts} pagination={props.pagination} />
